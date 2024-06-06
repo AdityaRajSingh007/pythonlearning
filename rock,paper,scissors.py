@@ -55,7 +55,7 @@ elif user_choice == "1" :
     else :
         print(f"Computer: {scissors}")
         print("You Loose!")
-else :
+elif user_choice == "2" :
     print(f"You: {scissors}")
     if computer_choice == "0" :
         print(f"Computer: {rock}")
@@ -66,3 +66,5 @@ else :
     else :
         print(f"Computer: {scissors}")
         print("Tie!")
+else :
+    print("Are you Drunk, Invalid Input: You Lose!")
